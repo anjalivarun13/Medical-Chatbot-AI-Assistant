@@ -1,7 +1,7 @@
 langchain==0.3.26
 langchain-community==0.3.26
-langchain-google-genai==2.1.8
-langchain-pinecone==0.2.8
+langchain-google-genai>=2.1.8
+langchain-pinecone>=0.0.1
 
 flask==3.1.1
 pypdf==5.6.1
@@ -12,5 +12,3 @@ transformers==4.52.4
 torch==2.8.0
 
 numpy==1.26.4
-
--e .
