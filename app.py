@@ -61,4 +61,3 @@ def chat():
 
 if __name__ == '__main__':
     port = int(os.getenv("PORT", 8080))  # use Render's PORT if set
-    app.run(host="0.0.0.0", port= 8080, debug= True)
