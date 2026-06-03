@@ -209,6 +209,8 @@ This application is intended solely for educational and informational purposes. 
 
 **Anjali Varun**
 
-GitHub: https://github.com/anjalivarun13
+**GitHub**: https://github.com/anjalivarun13
+
+**LinkedIn:**: https://www.linkedin.com/in/anjali-varun/
 
 If you found this project useful, consider giving the repository a ⭐.
