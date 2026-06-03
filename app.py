@@ -92,9 +92,12 @@ if user_input:
     question_answer_chain = create_stuff_documents_chain(chatmodel, prompt)
     rag_chain = create_retrieval_chain(retriever, question_answer_chain)
 
-    # Get response
-    response = rag_chain.invoke({"input": user_input})
-    bot_answer = response["answer"]
+    # Get response safely
+    try:
+        response = rag_chain.invoke({"input": user_input})
+        bot_answer = response["answer"] 
+    except Exception as e:
+        bot_answer = "⚠️ The system is currently overloaded or quota has been exceeded. Please try again later." 
 
     # Add bot message
     st.session_state.messages.append({
