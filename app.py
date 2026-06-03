@@ -58,6 +58,3 @@ def chat():
     print("Response : ", response["answer"])
     return str(response["answer"])
 
-
-if __name__ == '__main__':
-    port = int(os.getenv("PORT", 8080))  # use Render's PORT if set
