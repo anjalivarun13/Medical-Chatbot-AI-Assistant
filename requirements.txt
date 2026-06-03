@@ -1,16 +1,17 @@
+streamlit
+protobuf
+
 langchain==0.3.26
 langchain-community==0.3.26
 langchain-google-genai>=2.1.8
 langchain-pinecone>=0.0.1
 
-flask==3.1.1
 pypdf==5.6.1
 python-dotenv==1.1.0
 
 sentence-transformers==4.1.0
 transformers==4.52.4
-torch==2.9.0
+torch==2.9.0+cpu
 
 numpy==1.26.4
 
-gunicorn==22.0.0
