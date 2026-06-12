@@ -105,10 +105,10 @@ Streamlit User Interface
 ## 🎥 Live Demo
 
 ### Web Application
-![Web Application](https://ai-medical-chatbot-assistant.streamlit.app/)
+[Web Application](https://ai-medical-chatbot-assistant.streamlit.app/)
 
 ### Video Demonstration
-![Video Demo](https://drive.google.com/file/d/1tgH4nZ-ftKlZ4v1DDq0BGFI0OdVETUAr/view?usp=sharing)
+[Video Demo](https://drive.google.com/file/d/1tgH4nZ-ftKlZ4v1DDq0BGFI0OdVETUAr/view?usp=sharing)
 
 ---
 
